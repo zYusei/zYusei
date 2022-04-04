@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: arial;
+    font-size: 15px;
+    line-height: 1.5em;
+    background-color: #f4f4f4;
+}
+
+#container{
+    background-color: #333333;
+    margin: 40px auto;
+    width: 60%;
+    overflow: auto;
+    min-height: 630px;
+}
+
+header h1{
+    color: #ffffff;
+    font-size: 22px;
+    padding: 15px 0 10px 10px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.messages{
+    width: 90%;
+    background-color: #f4f4f4;
+    height: 400px;
+    margin: 20px auto;
+    overflow: auto;
+}
+
+.message{
+    list-style: none;
+    padding: 7px;
+    border-bottom: 1px dotted silver;
+}
+
+.formu input[type=text]{
+    width: 46%;
+    height: 25px;
+    padding: 3px;
+    margin-bottom: 20px;
+}
+
+.formu .bout{
+    padding: 5px;
+    width: 100%;
+    
+    margin: 10px auto ;
+}
+
+.erreur{
+    background-color: red;
+    color: white;
+    width: 50%;
+    margin: 4px auto;
+    padding: 2px;
+    text-align: center;
+    border-radius: 10px;
+}
